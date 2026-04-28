@@ -1,0 +1,13 @@
+@startuml observation-profiles
+!theme plain
+
+node "Observation" as A
+node "Blood Pressure" as B
+node "Height" as C
+node "Weight" as D
+
+A --> B: profiles
+A --> C: profiles
+A --> D: profiles
+
+@enduml

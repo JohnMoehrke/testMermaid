@@ -1,0 +1,10 @@
+@startuml state-processing
+!theme plain
+
+[*] --> Idle
+Idle --> Processing: start
+Processing --> Idle: stop
+Processing --> Error: error
+Error --> Idle: reset
+
+@enduml

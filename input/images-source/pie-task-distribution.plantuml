@@ -1,0 +1,23 @@
+@startjson
+{
+  "title": "Distribution of Tasks",
+  "data": [
+    {
+      "name": "Task A",
+      "value": 40
+    },
+    {
+      "name": "Task B",
+      "value": 30
+    },
+    {
+      "name": "Task C",
+      "value": 20
+    },
+    {
+      "name": "Task D",
+      "value": 10
+    }
+  ]
+}
+@endjson

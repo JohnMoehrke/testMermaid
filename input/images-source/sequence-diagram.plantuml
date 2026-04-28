@@ -1,0 +1,10 @@
+@startuml sequence-diagram
+!theme plain
+
+participant Alice as A
+participant Bob as B
+
+A ->> B: Hello Bob, how are you?
+B -->> A: I am good, thanks!
+
+@enduml

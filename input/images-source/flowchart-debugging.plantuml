@@ -1,0 +1,33 @@
+@startuml flowchart-debugging
+!theme plain
+
+start
+:Start;
+:Is it working?;
+if (Is it working?) then (Yes)
+  :Great!;
+else (No)
+  :Check the code;
+  :Is the code correct?;
+  if (Is the code correct?) then (Yes)
+    :Check dependencies;
+    if (Dependencies ok?) then (Yes)
+      :Great!;
+    else (No)
+      :Update dependencies;
+      :Great!;
+    endif
+  else (No)
+    :Fix the code;
+    :Check dependencies;
+    if (Dependencies ok?) then (Yes)
+      :Great!;
+    else (No)
+      :Update dependencies;
+      :Great!;
+    endif
+  endif
+endif
+end
+
+@enduml

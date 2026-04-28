@@ -1,0 +1,12 @@
+@startmindmap
+!theme plain
+
+* Root
+  * Subtopic 1
+    * Subtopic 1a
+    * Subtopic 1b
+  * Subtopic 2
+    * Subtopic 2a
+    * Subtopic 2b
+
+@endmindmap

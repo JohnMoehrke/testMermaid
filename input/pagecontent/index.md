@@ -2,7 +2,7 @@
 
 Show a Mermaid diagrams.
 
-### Diagrams
+### Mermaid Diagrams
 
 #### Simple Mermaid Diagram
 
@@ -124,7 +124,65 @@ mindmap
             sub2b((Subtopic 2b))
 ```
 
+### Plantuml Diagrams
 
+#### Simple Plantuml Diagram
+
+<div>
+{% include observation-profiles.svg %}
+</div>
+
+#### Plantuml Sequence Diagram
+
+<div>
+{% include sequence-diagram.svg %}
+</div>
+
+#### Plantuml Flowchart
+
+<div>
+{% include flowchart-debugging.svg %}
+</div>
+
+#### Plantuml Gantt Chart
+
+not supported by Plantuml, but can be created using Mermaid as shown above.
+
+#### Plantuml Class Diagram
+
+<div>
+{% include class-person-student.svg %}
+</div>
+
+#### Plantuml State Diagram
+
+<div>
+{% include state-processing.svg %}
+</div>
+
+#### Plantuml Pie Chart
+
+<div>
+{% include pie-task-distribution.svg %}
+</div>
+
+#### Plantuml Entity Relationship Diagram
+
+<div>
+{% include erd-customer-order.svg %}
+</div>
+
+#### Plantuml User Journey Diagram
+
+<div>
+{% include user-journey-login.svg %}
+</div>
+
+#### Plantuml Mind Map
+
+<div>
+{% include mindmap-topics.svg %}
+</div>
 
 ### Source
 

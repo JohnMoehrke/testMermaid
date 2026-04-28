@@ -1,0 +1,20 @@
+@startuml user-journey-login
+!theme plain
+
+participant User as U
+participant System as S
+
+U ->> S: Click login button
+S ->> U: Display login form
+U ->> S: Enter credentials
+S ->> S: Validate credentials
+S ->> U: Grant access
+
+note right of U
+  Login Section
+  - User interaction
+  - Credential entry
+  - Access granted
+end note
+
+@enduml

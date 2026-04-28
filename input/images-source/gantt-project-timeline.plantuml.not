@@ -1,0 +1,9 @@
+@startuml gantt-project-timeline
+!theme plain
+
+project starts 2024-01-01
+[Task A] starts 2024-01-01 and ends 2024-01-31
+[Task B] starts 2024-01-31 and ends 2024-02-20
+[Task C] starts 2024-02-20 and ends 2024-03-01
+
+@enduml

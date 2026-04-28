@@ -1,0 +1,37 @@
+@startuml erd-customer-order
+!theme plain
+
+entity CUSTOMER {
+  * customer_id
+  --
+  name
+  email
+}
+
+entity ORDER {
+  * order_id
+  --
+  customer_id FK
+  order_date
+}
+
+entity LINE_ITEM {
+  * line_item_id
+  --
+  order_id FK
+  product
+  quantity
+}
+
+entity DELIVERY_ADDRESS {
+  * address_id
+  --
+  customer_id FK
+  address
+}
+
+CUSTOMER ||--o{ ORDER: places
+ORDER ||--|{ LINE_ITEM: contains
+CUSTOMER }o--|| DELIVERY_ADDRESS: uses
+
+@enduml
