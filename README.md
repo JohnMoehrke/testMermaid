@@ -6,3 +6,5 @@
 ## Status
 
 Mermaid diagrams show with a rendered paragraph markings with #current template that does not happen with current released template.
+
+.
