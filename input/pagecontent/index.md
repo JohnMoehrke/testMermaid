@@ -134,6 +134,8 @@ mindmap
 
 ##### Simple Plantuml Diagram again
 
+Note this will throw duplicate id about all the id in the plantuml as this replicates the plantuml svg (html)
+
 <div>
 {% include observation-profiles.svg %}
 </div>
@@ -155,6 +157,8 @@ mindmap
 not supported by Plantuml, but can be created using Mermaid as shown above.
 
 #### Plantuml Class Diagram
+
+Note this will throw a duplicate id because the class diagram has two arrows from the same to the same artifact.
 
 <div>
 {% include class-person-student.svg %}
