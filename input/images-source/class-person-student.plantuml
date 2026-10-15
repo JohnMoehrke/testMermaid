@@ -12,6 +12,8 @@ class Student {
   +study(): void
 }
 
-Person <|-- Student
+Person <|-- Student : name
+Person <|-- Student : age
+
 
 @enduml

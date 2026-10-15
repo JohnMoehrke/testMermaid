@@ -132,6 +132,12 @@ mindmap
 {% include observation-profiles.svg %}
 </div>
 
+##### Simple Plantuml Diagram again
+
+<div>
+{% include observation-profiles.svg %}
+</div>
+
 #### Plantuml Sequence Diagram
 
 <div>
